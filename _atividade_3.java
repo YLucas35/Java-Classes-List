@@ -16,6 +16,5 @@ public class _atividade_3 {
         else {
             System.out.println("Temperatura dentro dos limites normais");
         }
-        sc.close()
     }
 }
