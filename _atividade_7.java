@@ -6,7 +6,7 @@ public class _atividade_7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numb1, numb2, numb3;
-        boolean result1, result2;
+        boolean result1, result2; //As variáveis são só tamplates para fazer o cálculo, elas não tem nenhum valor atribuído a elas.
 
         System.out.println("Insira o primeiro número");
         numb1 = sc.nextInt();
