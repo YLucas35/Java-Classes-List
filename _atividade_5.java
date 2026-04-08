@@ -21,6 +21,5 @@ public class _atividade_5 {
         else {
             System.out.println("Você não pode votar.");
         }
-        sc.close();
     }
 }
