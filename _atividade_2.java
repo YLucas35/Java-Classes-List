@@ -17,6 +17,5 @@ public class _atividade_2 {
             result = (numb * 0.90);
             System.out.printf("O preço final com desconto é: R$%.2f%n", result);
         }
-        sc.close()
     }
 }
