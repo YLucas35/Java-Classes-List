@@ -6,7 +6,7 @@ public class _atividade_7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numb1, numb2, numb3;
-        boolean result1, result2, result3;
+        boolean result1, result2;
 
         System.out.println("Insira o primeiro número");
         numb1 = sc.nextInt();
@@ -18,21 +18,27 @@ public class _atividade_7 {
         numb3 = sc.nextInt();
 
         if (numb1 > numb2) {
-            result1 = (numb1 > numb3);
+            result1 = (numb1 >= numb3);
             System.out.println(numb1+" é o maior de todos");
             sc.close();
         } else if (numb2 > numb1) {
-            if (numb2 > numb3) {
+            if (numb2 >= numb3) {
                 System.out.println(numb2+" é o maior de todos");
                 sc.close();
             }
             else {
-                result3 = (numb3 > numb2);
                 System.out.println(numb3+" é o maior de todos");
                 sc.close();
             }
-        } else if (numb2 > numb3 ) {
-            System.out.println(numb2+" é o maior de todos");
+        } else {
+            if (numb3 >= numb1) {
+                result2 = (numb3 > numb2);
+                System.out.println(numb3+" é o maior de todos");
+                sc.close();
+            }
+            else {
+                System.out.println(numb1+" é o maior de todos");
+            }
         }
     }
 }
