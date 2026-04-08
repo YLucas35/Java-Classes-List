@@ -21,6 +21,5 @@ public class _atividade_4 {
         else {
             System.out.println("Você é menor de idade");
         }
-        sc.close();
     }
 }
