@@ -1,4 +1,4 @@
-package Lista_Java;
+package Java_Lista_1_If_e_Se;
 
 import java.util.Scanner;
 
