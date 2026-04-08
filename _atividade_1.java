@@ -17,5 +17,6 @@ public class _atividade_1 {
         else {
             System.out.println("Salário baixo");
         }
+        sc.close()
     }
 }
