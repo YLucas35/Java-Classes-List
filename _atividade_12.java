@@ -18,16 +18,13 @@ public class _atividade_12 {
 
         double maior = numb1;
         double menor = numb1;
-
-        // Lógica para encontrar o maior
+        
         if (numb2 > maior) {
             maior = numb2;
         }
         if (numb3 > maior) {
             maior = numb3;
         }
-
-        // Lógica para encontrar o menor
         if (numb2 < menor) {
             menor = numb2;
         }
