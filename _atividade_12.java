@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class _atividade_12 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite o primeiro número:");
-        double numb1 = scanner.nextDouble();
+        double numb1 = sc.nextDouble();
 
         System.out.println("Digite o segundo número:");
-        double numb2 = scanner.nextDouble();
+        double numb2 = sc.nextDouble();
 
         System.out.println("Digite o terceiro número:");
-        double numb3 = scanner.nextDouble();
+        double numb3 = sc.nextDouble();
 
         double maior = numb1;
         double menor = numb1;
@@ -38,6 +38,6 @@ public class _atividade_12 {
         System.out.printf("O maior número é: %.0f%n", maior);
         System.out.printf("O menor número é: %.0f%n", menor);
 
-        scanner.close();
+        sc.close();
     }
 }
