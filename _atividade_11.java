@@ -11,7 +11,7 @@ public class _atividade_11 {
         numb = sc.nextInt();
         result = numb % 5;
 
-        if (result <= 0) {
+        if (result == 0) {
             System.out.println("Este número é divisível por 5");
         }
         else {
